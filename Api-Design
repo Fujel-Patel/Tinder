@@ -1,0 +1,12 @@
+-----------------------> API Design <----------------------------
+-REST API
+
+POST  /Sign-UP API  --> 
+POST  /login(Sign-In) API --> 
+GET   /Profile API  --> 
+PATCH   /profile  ---> update 
+DELETE  /profile  ---> 
+POST    /sendRequest  --->(ignored, interested)
+POST    /overViewRequest  ----> (accepted, rejected)
+GET    /request
+GET    /connection

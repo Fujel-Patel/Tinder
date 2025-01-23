@@ -1,0 +1,16 @@
+------------------->  db-notes   <------------------
+-LLD(Low Level Design)
+-HLD(High Level Design)
+
+-create user Model
+    -First Name
+    -Last Name
+    -E-mail Id(Unique)
+    -Password 
+    -age
+    -Gender
+
+-Connection Request Model
+    -fromUserId
+    -toUserId
+    -status (Pending,accepted, rejected, ignored)
