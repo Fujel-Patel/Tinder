@@ -14,3 +14,7 @@
     -fromUserId
     -toUserId
     -status (Pending,accepted, rejected, ignored)
+
+-Validators
+    -check the condition
+    -add validator fucntions    

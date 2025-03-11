@@ -10,3 +10,26 @@ POST    /sendRequest  --->(ignored, interested)
 POST    /overViewRequest  ----> (accepted, rejected)
 GET    /request
 GET    /connection
+
+ ------ DevTinder APIs
+
+##authRouter
+    -POST /signUp
+    -POST /login
+    -POST /logout
+
+##profileRouter
+    -GET /profile/view
+    -PATCH /profile/edit
+    -PATCH /profile/password
+
+##connectionRequestRouter
+    -POST /request/send/:status/:userId   (status = intrested ,ignored)
+    -POST /request/review/:status/:requestId (status = accepted, rejected)
+
+## useRouter
+-GET /user/connections
+-GET /request/received  
+-GET /feed -Gets you to profiles of other user and platform 
+
+status : ignore, intrested,accepted, rejected
